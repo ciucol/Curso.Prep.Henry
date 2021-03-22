@@ -1,0 +1,14 @@
+Variables:
+Son cajas en donde puedes guardar lo que necesites y siempre puedes volver y sacar lo que allí está, lo más interesante es que puedes cambiar lo que tienes allí guardado por otra cosa. Por ejemplo, guardas un carro de policía y siempre que quieras lo puedes sacar, pero si luego quieres cambiar el carro de policía por un balón, lo puedes hacer, ya no tendrías el carro de policía pero si tendrías tu balón guardado.
+
+Strings:
+Es una sola letra o un bloque con muchas letras y palabras
+
+Funciones (argumentos, `return`):
+Imagina una cocina. Adentro de la cocina puedes hacer muchas cosas, por ejemplo puedes preparar el almuerzo con todos los ingredientes que tiene adentro de la cocina. A la cocina y a todo lo que haces en ella, en programación se le llama Función. Pero mira que aún no ha salido el plato de la cocina, necesitas servirlo en un plato para que pueda salir, a ese plato se le llama Return, si quires sacar algo de la función, tienes que hacerlo usando Return. Por último, puede que al almuerzo alguien te pida una Lasagna y te pase los ingredientes que no tienes en tu cocina, por ejemplo una salsa o carne o pasta y tú no tienes problema en cocinar con ellos, pero necesitas que lo dejen todo en la mesa que está en la entrada a la cocina y así puedes ir a la mesa y tomar cda ingrediente cuando lo neesites, a esa mesa la llamamos argumento y puedes tener tantos como quieras. Los argumentos te permiten recibir cosas desde afuera de la función que luego puedes utilizar al interior de ella.
+
+Declaraciones `ìf`:
+Las declaraciones te permiten hacerte preguntas y dependiendo de las respuesta haces cosas. Por ejemplo puedes preguntarte si está lloviendo o no y dependiendo de eso, te colocas un saco o no.
+
+Valores booleanos (`true`, `false`):
+Piensa en la luz de tu cuarto, puede estar encendida o apagada, no puede estar de otra manera. Igual pasa cuando tomas una variable, recuerda que es una caja en donde guardas cosas y a veces puede estar un objeto y otras veces otro. Los valores booleanos son variables que así como la luz de tu cuarto puede ser encendido o apagado pero no hay otra manera, los booleanos pueden ser Verdadero o Falso y no hay otro valor diferente.
