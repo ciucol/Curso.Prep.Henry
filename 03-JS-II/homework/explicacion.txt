@@ -1,0 +1,7 @@
+for:
+Necesitas hacer algo de manera repetida y sabes exactamente cuantas veces necesitas hacerlo. Por ejemplo necesitas tomarte 10 cuacharadas de sopa para poder salir a jugar, entonces le dices a tu mamá que te lleve la cuenta, empiezas en un número ya definido, por ejemplo 0 yvas a tomar hasta 10 y nada más y quieres que cada que tomes, se incremente este número para poder que si llegue a 10, porque si no te quedarás tomando y tomando sopa hasta que te salte por los ojos. Esto es un ciclo for, debes definir un número, la cantidad hasta donde llegará y la manera en que llegarás a este número y cada vez que lo hagas vas a hacer algo.
+
+`&&`, `||`, `!`:
+&& lo usas cuando necesitas que al comparar dos cosas las dos sean verdad, por ejemplo necesitas elegir una pareja de dos niños y aparecen 2 personas. La única manera de que esto sea correcto es que los dos sean niños, si una es niña ya esto no será correcto.
+|| lo usas cuando necesitas que por lo menos una de las cosas sea verdad, por ejemplo necesitas elegir una pareja y una de ellas debe ser niña y aparecen 2 personas. Con que solo una sea niña, ya es correcto. Si los dos son niños entonces no estará correcto.
+| lo usas cuando quieres justo lo contrario. Por ejemplo: si alguien viene, quieres que NO sea niño.
