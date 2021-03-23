@@ -1,0 +1,2 @@
+Arrays:
+Piens en los casilleros de tu colegio. Imagina en una fila en el piso, solo una fila y que tiene 10 en total. En cada uno puedes guardar lo que tu quieras y los 10 pertenecen al mismo grupo llamdo casilleros. Puedes elegir ingresar cosas a cada uno o sacarlas, así como también puedes agregar mas espacio o quitar o simplemente de un solo golpe quitar todos. Todo el conjunto de casilleros se llama Array y cada uno de los espacio es los que guardas son los contenedores del array.
