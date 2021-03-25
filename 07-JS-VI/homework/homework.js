@@ -4,17 +4,29 @@ function mayuscula(nombre) {
   //La función recibe un nombre y debe devolver el mismo que recibe pero con su primer letra en mayúscula
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
+
+  // let primera = nombre.charAt(0);
+  // primera = primera.toUpperCase();
+  // for (let i = 1; i < nombre.length; i++) {
+  //   primera = primera + nombre.charAt(i);
+  // }
+  // return primera;
+  let mayuscula = nombre[0].toUpperCase();
+  let palabra = mayuscula + nombre.slice(1);
+  return palabra;
 }
 
 function invocarCallback(cb) {
   // Invoca al callback `cb`
   //Tu código:
+  cb();
 }
 
 function operacionMatematica(n1, n2, cb) {
   //Vamos a recibir una función que realiza una operación matemática como callback junto con dos números.
   //Devolver el callback pasándole como argumentos los números recibidos.
   //Tu código:
+  return cb(n1, n2);
 }
 
 function sumarArray(numeros, cb) {
@@ -22,12 +34,18 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
+  let aux = 0;
+  for (let i = 0; i < numeros.length; i++) {
+    aux = aux + numeros[i];
+  }
+  cb(aux);
 }
 
 function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
   //Tu código:
+  array.forEach(cb);
 }
 
 function map(array, cb) {
@@ -35,12 +53,34 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
+
+  // function cb(a) {
+  //   return a;
+  // }
+  // const arrayNuevo = array.map(cb);
+  // return arrayNuevo;
+
+  var nuevoArray = array.map(function (el) {
+    return cb(el);
+  });
+  return nuevoArray;
 }
 
 function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
+  function cb(elemento) {
+    if (elemento[0] === "a") {
+      return elemento;
+    }
+  }
+
+  const nuevo = array.filter(cb);
+  return nuevo;
+
+  // const nuevo = array.filter((letra) => letra.length[0] === "a");
+  // return nuevo;
 }
 
 // No modificar nada debajo de esta línea
@@ -53,5 +93,5 @@ module.exports = {
   sumarArray,
   forEach,
   map,
-  filter
+  filter,
 };
